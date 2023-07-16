@@ -1,0 +1,240 @@
+
+#page-top {
+    font-size: 1rem;
+}
+
+.text-head {
+    font-weight: 700;
+}
+
+.masthead .masthead-avatar {
+    width: 20rem!important;
+}
+
+.bg-blue1 {
+    background-color: #4696e5 !important;
+}
+
+.bg-grey1 {
+    background-color: #eeeeee !important;
+}
+
+.bg-grey2 {
+    background-color: #f7f7f7 !important;
+}
+
+.card-w75 {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    color: #1b4b72;
+}
+
+.job .card {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.send-form input, #send {
+    font-weight: bold!important;
+    /*color: #cecece!important;*/
+    color: grey!important;
+}
+
+::placeholder {
+    color: lightgrey!important;
+}
+
+.grey1, .text-grey {
+    color: grey!important;
+}
+
+.blue-main {
+    color:  #4696e5 !important;
+}
+
+/************       BUTTONS $ LINKS          ****************/
+a.nav-link.active, .bg-primary.active {
+    background: lightgrey!important;
+    color:  #4696e5 !important;
+}
+
+a.btn-social:hover {
+    color: #4696e5 !important;
+}
+
+a.nav-link:hover, a.btn-download:hover {
+    color: #234d74 !important;
+}
+
+a.btn-download:hover {
+    background-color: #f7f7f7 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
+    background-color: #4696e5 !important;
+}
+
+#send_button:hover {
+    background-color: #e0e0e0!important;
+    font-weight: bold!important;
+}
+
+#send_button {
+    font-weight: bold!important;
+}
+
+#send:hover {
+    background: lightgrey!important;
+}
+
+a.btn-outline-secondary:hover {
+    border-color: #cecece !important;
+    background-color: #cecece !important;
+}
+
+a.btn-skill {
+    border-color:  white!important;
+    color:  white!important;
+    background-color: lightgrey;
+}
+
+a.btn-skill:hover {
+    border-color:  #4696e5!important;
+    color:  #4696e5!important;
+}
+/******     END BUTTON STYLE    ***********/
+
+#message_sent {
+    text-align: center;
+    color: lightgrey;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#error-message {
+    text-align: center;
+    color: #d3321a;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chosen {
+    background-color: #cde8ff !important;
+}
+
+.job-row {
+    margin-left: -3rem;
+    margin-right: -3rem;
+}
+
+.page-section {
+    padding-top: 3rem!important;
+    padding-bottom: 0!important;
+}
+
+.page-section h2 {
+    margin-bottom: 3rem;
+}
+
+.bg-primary {
+    background-color: #234d74 !important;
+}
+
+#contact {
+    padding-bottom: 3rem!important;
+    border-top: white solid 3px;
+}
+
+.send-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#cv-btn {
+    padding-bottom: 30px;
+}
+
+.border-bottom {
+    border-bottom: unset!important;
+}
+
+.text-nowrap {
+    white-space: unset!important;
+}
+
+#mainNav {
+    border-bottom: white solid 3px;
+}
+
+.project {
+    margin: 50px 0;
+}
+
+.card-project {
+    width: 100%;
+ }
+
+.card-data h5, .h5-style {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+.card-data h6, .h6-style {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+@media (min-width: 577px) {
+
+    .btn-white {
+        color: white !important;
+        border-color: #eeeeee !important;
+    }
+
+    .btn-blue {
+        color: #4696e5 !important;
+        border-color: #4696e5 !important;
+    }
+
+    .bg-grey1-job {
+        /*background-color: #dffffa !important;*/
+        background-color: #eeeeee !important;
+    }
+
+    .blue-main-job {
+        color:  #4696e5 !important;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .btn-white-mob {
+        color: white !important;
+        border-color: #eeeeee !important;
+    }
+
+    .bg-grey1-mob {
+        background-color: #eeeeee !important;
+    }
+
+    .blue-main-mob {
+        color:  #4696e5 !important;
+    }
+
+    .date-range {
+        padding-top: 12px;
+    }
+
+}
+
+
+

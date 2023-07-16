@@ -1,6 +1,15 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\AvatarController;
+use App\Http\Controllers\Admin\EmploymentController;
+use App\Http\Controllers\Admin\ImageController;
+use App\Http\Controllers\Admin\LetterController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Admin\ProjectController;
+use App\Http\Controllers\Admin\VisitorController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +22,17 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/foo', function () {
+
+//    $user = User::find(1);
+//    $user->password = \Illuminate\Support\Facades\Hash::make('demo1234');
+//    $user->save();
+
+    echo('FOO');
+});
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -29,3 +49,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+require __DIR__.'/admin.php';

@@ -33,10 +33,10 @@
                                                 @endif
                                             <tr  class="{{ $chosen }}">
                                                 <td>{{ $i }}</td>
-                                                <td>{{ $item->filename }}</td>
+                                                <td>{{ $item->original_filename }}</td>
                                                 <td>
                                                     <div class="container">
-                                                        <img src="{{ asset($item->path) }}" class="img-thumbnail"  width="50" height="40">
+                                                        <img src="{{ asset('storage/uploads/avatars/' . $item->filename) }}" class="img-thumbnail"  width="50" height="40">
                                                     </div>
                                                 </td>
                                                 @if($item->status)
@@ -44,7 +44,7 @@
                                                 @else
                                                     <form action="" method="GET">
                                                         <td>
-                                                            <a href="{{ route('update_avatar', $item ) }}" onclick="return confirm('Are you sure?')" class="btn btn-success">On</a>
+                                                            <a href="{{ route('update_avatar', $item->id ) }}" onclick="return confirm('Are you sure?')" class="btn btn-success">On</a>
                                                         </td>
                                                     </form>
                                                 @endif
